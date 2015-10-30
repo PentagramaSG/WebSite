@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Listas</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+		<title>Resultado</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
 	</head>
-	<body style="background-color:black">
-        <p style="text-align:left; color:yellow; font-size: 20px; font-family:Impact">Essa é a primeira frase.</p>
-        <p style="text-align:center; color:red; font-size 40px; font-family:Verdana">Essa é a segunda frase.</p>
-        <p style="text-align:right; color:violet; font-size 60; font-family:Arial"><strong>Essa é a <em>terceira</em> e última frase.</strong></p>
-        <div style="width: 200px; height: 200px; background-color:blue"><p style="font-size: 20px; color: yellow">Testando um texto com tamanho 20, cor amarela em uma "div" do tamanho 200x200</p> </div>
-        <p>ALTERAÇÃO</p>
-        <p>Alteração 2</p>
+        <body>
+            <header>
+                <nav class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">Caelum</a>    
+                        <a href="#" class="btn btn-primary" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-collapse">Menu</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav nav">
+                            <li><a href="#">Novidades</a></li>
+                            <li><a href="#">Mais vendidos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div>
+                    <h3 class="text-center">Novidades</h3>
+                </div>
+
+                <div class="col-xs-12 col-md-4 thumbnail text-center">
+                    <figure>
+                        <img src="images/sasuke.jpg" alt="Assinatura do Sasuke" />
+                <div>
+                    <h4>Assinatura do Sasuke feita por Pentagrama</h4>
+                    <p>Confira mais clicando na imagem</p>
+                </div>
+
+                    </figure>
+                        <p>R$ 190,00</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+
+                <div class="col-xs-12 col-md-4 thumbnail text-center">
+                    <figure>
+                        <img src="images/magico.jpg" alt="Assinatura do Mágico" />
+                <div>
+                    <h4>Assinatura do Mágico feita por Pentagrama</h4>
+                    <p>Confira mais clicando na imagem</p>
+                </div>
+
+                    </figure>
+                        <p>R$ 130,00</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+
+                <div class="col-xs-12 col-md-4 thumbnail text-center">
+                    <figure>
+                        <img src="images/ichigo.jpg" alt="Assinatura do Ichigo" />
+                <div>
+                    <h4>Assinatura do Ichigo feita por Pentagrama</h4>
+                    <p>Confira mais clicando na imagem</p>
+                </div>
+
+                    </figure>
+                        <p>R$ 50,00</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </main>
 	</body>
 </html>
